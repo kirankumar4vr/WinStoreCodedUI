@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Logins>
+  <Login LoginName="TeacherChandler">
+    <UserName>Chandler1</UserName>
+    <Password>sch00lnet</Password>
+    <PersonName>TMsec14grd01FN TMsec14grd01</PersonName>
+    <UserType>Teacher</UserType>
+    <SectionedGrades>14</SectionedGrades>
+  </Login>
+  <Login LoginName="TeacherAdbul">
+    <UserName>TEsec14grd01</UserName>
+    <Password>psocsq3</Password>
+    <PersonName>TEsec14grd01FN TEsec14grd01</PersonName>
+    <UserType>Teacher</UserType>
+    <SectionedGrades>14</SectionedGrades>
+  </Login>
+  <Login LoginName="Teacher2">
+    <UserName>TMsec14grdkg</UserName>
+    <Password>psocsq3</Password>
+    <PersonName>TMsec14grdKGFN TMsec14grdKG</PersonName>
+    <UserType>Teacher</UserType>
+    <SectionedGrades>14</SectionedGrades>
+  </Login>
+  <Login LoginName="NonSectionedTeacher">
+    <UserName>TEsec14grdkg</UserName>
+    <Password>psocsq3</Password>
+    <PersonName>TEsec14grdKGFN TMsec14grdKG</PersonName>
+    <UserType>Teacher</UserType>
+    <SectionedGrades>14</SectionedGrades>
+  </Login>
+  <Login LoginName="StudentKevin">
+    <UserName>S01sec14grdkg</UserName>
+    <Password>psocsq3</Password>
+    <PersonName>S01sec14grdKGFN S01sec14grdKG</PersonName>
+    <UserType>Student</UserType>
+    <SectionedGrades>7,8,9</SectionedGrades>
+  </Login>
+  <Login LoginName="StudentSetupUser">
+    <UserName>S01sec21grd01</UserName>
+    <Password>psocsq3</Password>
+    <PersonName>S01sec21grd01FN S01sec21grd01</PersonName>
+    <UserType>Student</UserType>
+    <SectionedGrades>14</SectionedGrades>
+    <NavigationInfo>
+      <SubjectInfo SubjectName="ELA">
+        <TaskInfo TaskName="Teacher">
+          <Grade>9</Grade>
+          <Unit>10</Unit>
+          <Lesson>1</Lesson>
+          <TaskNumber>0</TaskNumber>
+          <Title>Episode1</Title>
+          <AdditionalInfo>TEMsec21grd01FN</AdditionalInfo>
+        </TaskInfo>
+      </SubjectInfo>
+    </NavigationInfo>
+  </Login>
+  <Login LoginName="StudentSophia">
+    <UserName>S02sec14grdkg</UserName>
+    <Password>psocsq3</Password>
+    <PersonName>S02sec14grdKGFN S02sec14grdKG</PersonName>
+    <UserType>Student</UserType>
+    <SectionedGrades>14</SectionedGrades>
+  </Login>
+  <Login LoginName="StudentAzyiah">
+    <UserName>S03sec14grdkg</UserName>
+    <Password>psocsq3</Password>
+    <PersonName>S03sec14grdKGFN S03sec14grdKG</PersonName>
+    <UserType>Student</UserType>
+    <SectionedGrades>7,8,9</SectionedGrades>
+  </Login>
+  <Login LoginName="IncorrectCredential">
+    <UserName>IncorrectUserName</UserName>
+    <Password>IncorrectPassword</Password>
+    <PersonName>No Name</PersonName>
+    <UserType>Student</UserType>
+    <SectionedGrades>7,8,9</SectionedGrades>
+  </Login>
+  <Login LoginName="EmptyCredential">
+    <UserName> </UserName>
+    <Password> </Password>
+    <PersonName>No Name</PersonName>
+    <UserType>Student</UserType>
+    <SectionedGrades>7,8,9</SectionedGrades>
+  </Login>
+  <Login LoginName="EmptyUsername">
+    <UserName> </UserName>
+    <Password>sch00lnet</Password>
+    <PersonName>No Name</PersonName>
+    <UserType>Student</UserType>
+    <SectionedGrades>7,8,9</SectionedGrades>
+  </Login>
+  <Login LoginName="EmptyPassword">
+    <UserName>1144974</UserName>
+    <Password> </Password>
+    <PersonName>No Name</PersonName>
+    <UserType>Student</UserType>
+    <SectionedGrades>7,8,9</SectionedGrades>
+  </Login>
+  <Login LoginName="InvalidUsernameCorrectPassword">
+    <UserName>InvalidUsername</UserName>
+    <Password>sch00lnet </Password>
+    <PersonName>No Name</PersonName>
+    <UserType>Student</UserType>
+    <SectionedGrades>7,8,9</SectionedGrades>
+  </Login>
+  <Login LoginName="ValidUsernameInvalidPassword">
+    <UserName>1144974</UserName>
+    <Password>INVALID </Password>
+    <PersonName>No Name</PersonName>
+    <UserType>Student</UserType>
+    <SectionedGrades>7,8,9</SectionedGrades>
+  </Login>
+  <Login LoginName="StudentAutomation">
+    <UserName>S04sec14grdkg</UserName>
+    <Password>psocsq3</Password>
+    <PersonName>Kevin A. </PersonName>
+    <UserType>Student</UserType>
+    <SectionedGrades>7,8,9</SectionedGrades>
+  </Login>
+  <Login LoginName="TeacherAutomation">
+    <UserName>TMsec14grdkg</UserName>
+    <Password>psocsq3</Password>
+    <PersonName>TMsec14grdKGFN TMsec14grdKG</PersonName>
+    <UserType>Teacher</UserType>
+    <SectionedGrades>8,9,10</SectionedGrades>
+  </Login>
+</Logins>

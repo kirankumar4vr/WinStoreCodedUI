@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestSettings name="212AgentExecution" id="007a34b1-25f6-4e66-8aea-86b5fb9c5fbd" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Description>These are default test settings for a local test run using Test Agent and Controller Setup.</Description>
+  <Deployment>
+    <DeploymentItem filename="Pearson.PSCWinAutomation.212App\Xml\" />
+  </Deployment>
+  <RemoteController name="127.0.0.1" />
+  <Execution location="Remote">
+    <Timeouts runTimeout="9000000" />
+    <TestTypeSpecific>
+      <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+        <AssemblyResolution>
+          <TestDirectory useLoadContext="true" />
+        </AssemblyResolution>
+      </UnitTestRunConfig>
+    </TestTypeSpecific>
+    <AgentRule name="AllAgentsDefaultRole">
+      <DataCollectors>
+        <DataCollector uri="datacollector://microsoft/SystemInfo/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="System Information">
+        </DataCollector>
+        <DataCollector uri="datacollector://microsoft/TraceDebugger/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TraceDebuggerDataCollector, Microsoft.VisualStudio.TraceCollector, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="IntelliTrace">
+        </DataCollector>
+        <DataCollector uri="datacollector://microsoft/NetworkEmulation/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.NetworkEmulation.NetworkEmulationDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.NetworkEmulation, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Network Emulation">
+        </DataCollector>
+        <DataCollector uri="datacollector://microsoft/EventLog/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.EventLog.EventLogDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.EventLog, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Event Log">
+        </DataCollector>
+      </DataCollectors>
+    </AgentRule>
+  </Execution>
+  <Properties />
+</TestSettings>

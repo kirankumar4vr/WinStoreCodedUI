@@ -1,0 +1,92 @@
+Terms of Use
+
+Welcome to our Application for the Pearson System of Courses ("PSoC" and the Application hereinafter called the "App" or "Application"). The Application operates on an App Supported Device from which you may access Pearson’s PSoC product, which is a software application that delivers Math and ELA instructional content on a mobile digital device or other computing system. The terms of Use set out below govern the use of the App and the software and digital content contained within it (the "Terms of Use"). "App Supported Device" means a mobile, computer or other electronic device with an operating system that is capable of running and supporting the App. Pearson Education, Inc., and its subsidiaries and affiliates (collectively referred to herein as "Pearson", "we", "our" or "us") are providing you this Application based on your school or school district’s adoption of the PSoC.
+
+Your use of the Application is subject to all terms and policies stated herein (including the Privacy Statement). If you are under 18 years of age, please be sure to read this Terms of Use with your teacher, parent or guardian and ask questions about things you do not understand.
+
+It is important to us that the Application provides you with a helpful and reliable experience. To protect our rights and yours, we have prepared the Terms of Use that apply to all users of the Application. Please note that the usage terms and/or privacy policies of other Pearson and third- party products and services linked to or from this Application may vary from the terms herein so please make sure to check the terms and policies applicable to such other products and applications prior to use.
+
+User License:
+
+Pursuant to a license granted to your school or school district, you are granted a limited, personal, non-exclusive, non-assignable, and non-transferable license to access, install and use the Application for non-commercial, personal use only on an App Supported Device. Except as stated herein, you may not adapt, download, revise, broadcast, reverse engineer, duplicate, publish, modify, disseminate, display, perform, transfer, or otherwise distribute any content or other material on the Application, unless specifically authorized by Pearson or this Terms of Use. You agree that the Application may automatically download and install updates, upgrades or other enhancements from time to time. You acknowledge and agree that Pearson shall have no obligation to support any previous version(s) of the Application that may be discontinued due any update of the Application. This Terms of Use shall apply to any new version of the Application if such version is not distributed with a separate terms of use.
+
+Use of the Application for any purpose other than as contemplated in the Terms of Use is a violation of Pearson’s and/or its licensors’ copyright and proprietary rights. All rights not expressly granted herein are reserved by Pearson.
+
+Certain features of this Application may be provided by third parties and the use of such features may be conditioned upon your agreement to such third parties’ terms of use and privacy policies. You understand that the Terms of Use apply only to the parts of the Application that reside on Pearson’s (or its service provider’s) servers and not to those that reside on third-party servers not controlled by Pearson.
+
+Uploads:
+
+To the extent that the Application may provide you with an opportunity to upload material ("Uploads"), be advised that Pearson has no obligation to screen, edit, or review such uploads prior to their appearance in the Application, and Uploads do not necessarily reflect the views of Pearson. To the fullest extent permitted by applicable laws, in no event shall Pearson have any responsibility or liability for the Uploads (or the loss thereof for any reason) or for any claims, damages, or losses resulting from their use (or loss) and/or appearance on the Application. Please keep in mind that Uploads may be discoverable by, and viewable to, other users of the Application. Pearson reserves the right to monitor the Uploads and to remove anything which it considers in its absolute discretion to be offensive, ineffective or otherwise in breach of the Terms of Use or for any other reason as Pearson deems necessary.
+
+You hereby represent and warrant that your Uploads shall not contain any viruses or other contaminating or destructive devices or features; that your Uploads will not contain any defamatory, indecent, offensive, tortious, or otherwise unlawful material or content; and that your Uploads will not be used to carry out or solicit any unlawful activity and/or be used to make commercial solicitations. You further represent and warrant that you have all necessary rights in and to the Uploads to be used in connection with the Application and that your Uploads will not infringe any intellectual, proprietary or other rights of third parties.
+
+Restrictions and Prohibited Conduct:
+
+As a condition of your use of the Application, you warrant to Pearson that you will not use the Application for any purpose that is unlawful or prohibited by the Terms of Use. You agree not to obtain or attempt to obtain any materials or information not intentionally made available to you on the Application.
+
+Except as may be expressly permitted by these App Terms of Use and to the maximum extent permitted by applicable local law, you may not, directly or indirectly: (i) use the App on any device other than an App Supported Device; (ii) use, copy, reproduce, modify, distribute copies of, display publicly or transmit the App; (iii) open, service or tamper with the App, disassemble, reverse engineer, emulate, decompile, tamper with, create derivative works from the App or the digital content contained therein or otherwise attempt to discover the source code of the App or the technology used to provide App, or attempt to reduce the App to human-readable form; (iv) bypass, modify, defeat, tamper with or circumvent any of the security features of the App, including altering any digital rights management ("DRM") functionality of the App; (v) share access to the App, whether through a network, resale or other means; (vi) transfer the App (or any individual component thereof) from one device to another device or computer; (vii) infringe, violate, or interfere with any patent, trademark, trade secret, copyright, right of publicity or any other right of any party; (viii) violate any law, rule or regulation of the local laws applicable to you in your use of the App; (ix) sublicense, assign in whole or in part, rent, lease, lend, resell or in any way transfer any rights to all or any portion of the App to any third party; (x) broadcast, transmit or distribute any digital content in any manner, such as online streaming or making the digital content available for download; (xi) interfere with or damage the App, including, through the use of viruses, cancel bots, Trojan horses, harmful code, flood pings, denial of service attacks, packet or IP spoofing, forged routing or electronic mail address information or similar methods or technology; (xii) delete, destroy or alter in any manner the proprietary rights notices, markings and legends appearing on the App; or (xiii) assist or encourage any third party in engaging in any activity prohibited by these Terms of Use, or any applicable local laws or regulations.
+
+Pearson reserves the right at any time, and from time to time, to discontinue, temporarily or permanently, the Application or any part thereof or terminate any user’s access to the Application or any part thereof if you violate the Terms of Use.
+
+Links to and from Other Websites:
+
+The Application may provide links to other third-party websites or resources (collectively, "3P Sites"). Because we do not control such 3P Sites you acknowledge and agree that Pearson is not responsible or liable for the content, products or performance of those 3P Sites, and you hereby irrevocably waive any claim against Pearson with respect to such sites. Pearson reserves the right to terminate any link at any time without notice. The inclusion of a link to such 3P Sites does not constitute or imply an endorsement, authorization, sponsorship, or affiliation by Pearson of that 3P Site, or any products or services provided therein. The information practices of those 3P Sites are not covered by the Terms of Use or any other policies or terms applicable to the Application. We recommend that you review any terms of use and privacy policy of these 3P Sites linked to the Application before providing any information to those websites or using their products and services.
+
+Please note that the Application may also provide links to other sites brought to you by Pearson. The privacy statement and terms of use of other Pearson sites may vary from the Terms of Use. Please review the privacy statements, terms of use and other policies or terms that may apply to other Pearson sites prior to your use of such sites.
+
+Copyright and Trademark Notices:
+
+The entire content of the Application and any supporting software are the proprietary property of Pearson and/or its licensors, and are protected by U.S. and international copyright and other intellectual property laws. The reproduction, redistribution, modification or publication of any part of the Application without the express written consent of Pearson and/or its licensors is strictly prohibited.
+
+Unless otherwise indicated, trademarks that appear on this Application are trademarks of Pearson or its affiliates. All other trademarks not owned by Pearson or its affiliates that appear in the Application are the property of their respective owners, who may or may not be affiliated with, connected to, or sponsored by Pearson or its affiliates. You agree not to display, disparage, dilute, or taint our trademarks or use any confusing similar marks or use our trademarks in such a way that would misrepresent the ownership of such marks. Any permitted use of our trademarks by you shall be to the benefit of Pearson.
+
+Disclaimer of Warranties:
+
+YOU EXPRESSLY UNDERSTAND AND AGREE THAT:
+
+(a) YOUR USE OF THE APPLICATION IS AT YOUR OWN RISK. THE APPLICATION IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS. YOU ACKNOWLEDGE AND AGREE THAT NO WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, ARE MADE BY PEARSON OR ITS LICENSORS AND PEARSON AND ITS LICENSORS EXPRESSLY DISCLAIM ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON- INFRINGEMENT;
+
+(b) ANY MATERIAL UPLOADED/DOWNLOADED OR OTHERWISE OBTAINED FROM THE APPLICATION IS DONE AT YOUR OWN DISCRETION AND RISK; NEITHER PEARSON NOR ITS LICENSORS SHALL BE LIABLE, AND YOU WILL BE SOLELY RESPONSIBLE, FOR ANY AND ALL LOSS, OR CORRUPTION, OF DATA UPLOADED OR INPUTTED BY YOU THROUGH THE USE OF THE APPLICATION, AND ALL SERVICING, REPAIR, OR CORRECTION AND ANY DAMAGE TO YOUR HARDWARE AND SOFTWARE THAT MAY RESULT FROM THE USE OF THE APPLICATION.
+
+Limitation of Liability:
+
+IN NO EVENT SHALL PEARSON OR ITS EMPLOYEES, AGENTS, LICENSORS, OR CONTRACTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES, DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE OF DATA, OR OTHER INTANGIBLE LOSSES (EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES), RESULTING FROM: (i) THE LOSS OF DATA AND/OR THE USE OR THE INABILITY TO USE THE APPLICATION; (ii) THE COST OF PROCUREMENT OF SUBSTITUTE GOODS AND SERVICES RESULTING FROM ANY GOODS, DATA, INFORMATION OR SERVICES PURCHASED OR OBTAINED OR MESSAGES RECEIVED OR TRANSACTIONS ENTERED INTO THROUGH OR FROM THE APPLICATION; (iii) UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA; (iv) STATEMENTS OR CONDUCT OF ANY THIRD PARTY ON THE APPLICATION; OR (v) ANY OTHER MATTER RELATING TO THE APPLICATION.
+
+Some jurisdictions do not allow the exclusion of certain warranties or the limitation or exclusion of liability for incidental or consequential damages. Accordingly, the limitations above may not apply to you.
+
+Digital Millennium Copyright Act Compliance:
+
+If you have any copyright concerns about any materials posted on the Application by others, please let us know. We comply with the provisions of the Digital Millennium Copyright Act applicable to Internet service providers (17 U.S.C. § 512). Unless otherwise stated in any specific DMCA designation provided by Pearson, please provide us with written notice ("Notice") by contacting our Designated Agent at the following address:
+
+DMCA Designated Agent Pearson Education, Inc. 200 Old Tappan Road Old Tappan, NJ 07675 Facsimile: (201)785-2721 email: dmca.agent@pearsoned.com
+
+To be effective, the Notice must include the following:
+
+a. A physical or electronic signature of the owner, or a person authorized to act on behalf of the owner, ("Complaining Party") of an exclusive right that is allegedly being infringed upon;
+
+b. Information reasonably sufficient to permit Pearson to contact the Complaining Party, such as an address, telephone number, and if available, an electronic mail address;
+
+c. Identification of the allegedly infringing material on the Application ("Infringing Material"), and information reasonably sufficient to permit Pearson to locate such material on the Application;
+
+d. Identification of the copyrighted work claimed to have been infringed upon ("Infringed Material"), or if multiple copyrighted works on the Application are covered by a single Notice, a list of each copyrighted work claimed to have been infringed (please be specific as to which Infringing Material is infringing on which Infringed Material);
+
+e. A statement that the Complaining Party has a good faith belief that use of Infringing Material in the manner complained of is not authorized by the copyright owner, its agent, or the law; and
+
+f. A statement that the information in the Notice is accurate, and under penalty of perjury, that the Complaining Party is the owner or is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.
+
+General Information:
+
+The Terms of Use govern your use of the Application. You also may be subject to additional terms and conditions that may apply when you use affiliated services, third-party content or third-party software. The failure of Pearson to exercise or enforce any right or provision of the Terms of Use shall not constitute a waiver of such right or provision.
+
+Ownership
+
+This Application is owned and operated by Pearson and the contents of this Application are protected by copyright of Pearson and/or its licensors.
+
+Violations:
+
+Please report any violations of the Terms of Use by Contacting Us.
+
+Last Update to Terms of Use: August, 2015
+
+Copyright © 2015 Pearson Education, Inc. All rights reserved.
+

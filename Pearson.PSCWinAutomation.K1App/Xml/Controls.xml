@@ -1,0 +1,3754 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Controls>
+  <View ViewName="AppView">
+    <Control ControlName="HelpMessage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>Popup</ParentControl>
+      <SearchProperties>
+        <Name>Switch to full screen mode</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="SetupHelpMessage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>Popup</ParentControl>
+      <SearchProperties>
+        <Name>You need to be set up on this device.</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    
+    <Control ControlName="ChildImage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>Popup</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>1</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="HelpMenu">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>Popup</ParentControl>
+      <SearchProperties>
+        <Name>Help!</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="Popup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Popup</Name>
+      </SearchProperties>
+      <ControlType>Popup</ControlType>
+      <ControlText></ControlText>
+    </Control>
+  </View>
+  <View ViewName="CameraWindow">
+    <Control ControlName="GridGroup">
+      <ParentControl>AppWindow</ParentControl>
+      <ControlZone>DirectUI</ControlZone>
+      <SearchProperties>
+        <ClassName>GridGroup</ClassName>
+      </SearchProperties>
+      <ControlType></ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="SelectPhoto">
+      <ParentControl>AppWindow</ParentControl>
+      <ControlZone>DirectUI</ControlZone>
+      <SearchProperties>
+        <ClassName>CFileSystemElement</ClassName>
+      </SearchProperties>
+      <ControlType></ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="OpenAddPhoto">
+      <ParentControl>AppWindow</ParentControl>
+      <ControlZone>DirectUI</ControlZone>
+      <SearchProperties>
+        <AutomationId>CommitButton</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="CameraCaptureAcceptButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>CameraCapture_Button_Accept</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="CameraCaptureCancelButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>CameraCapture_Button_Cancel</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="CameraWindow">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>WebcamWndClass</ClassName>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="CameraWindowPane">
+      <ControlZone>DirectUI</ControlZone>
+      <ParentControl>CameraWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>TouchHWNDElement</ClassName>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="CameraCommandBar">
+      <ControlZone>DirectUI</ControlZone>
+      <ParentControl>CameraWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>idPhotoCommandBar</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="CameraClose">
+      <ControlZone>DirectUI</ControlZone>
+      <ParentControl>CameraWindowPane</ParentControl>
+      <SearchProperties>
+        <AutomationId>idDlgCloseBtn</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AcceptCameraPic">
+      <ControlZone>DirectUI</ControlZone>
+      <ParentControl>CameraCommandBar</ParentControl>
+      <SearchProperties>
+        <AutomationId>idPhotoAcceptBtn</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+  </View>
+  <View ViewName="BookBuilderView">
+    <Control ControlName="BackButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>BackButton</AutomationId>
+      </SearchProperties>
+      <ControlType>Popup</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NextButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Button</ClassName>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType>Popup</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PageLabel">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>()</Name>
+      </SearchProperties>
+      <ControlType></ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PortraitFlipView">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>FlipView</ClassName>
+      </SearchProperties>
+      <ControlType></ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PortraitCoverFlipViewItem">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>PortraitFlipView</ParentControl>
+      <SearchProperties>
+        <ClassName>FlipViewItem</ClassName>
+        <Instance>1</Instance>
+      </SearchProperties>
+      <ControlType></ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PortraitFirstFlipViewItem">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>PortraitFlipView</ParentControl>
+      <SearchProperties>
+        <ClassName>FlipViewItem</ClassName>
+        <Instance>2</Instance>
+      </SearchProperties>
+      <ControlType></ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PortraitLastFlipViewItem">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>PortraitFlipView</ParentControl>
+      <SearchProperties>
+        <ClassName>FlipViewItem</ClassName>
+        <Instance>3</Instance>
+      </SearchProperties>
+      <ControlType></ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PortraitCoverImage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>PortraitCoverFlipViewItem</ParentControl>
+      <SearchProperties>
+        <AutomationId>CoverImage</AutomationId>
+      </SearchProperties>
+      <ControlType></ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PortraitFlipViewItemFirstPage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>PortraitFirstFlipViewItem</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType></ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PortraitFlipViewItemLastPage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>PortraitLastFlipViewItem</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType></ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="Landscape">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>Popup</ParentControl>
+      <SearchProperties>
+        <AutomationId>btnPicker</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="CameraOnlyIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>Popup</ParentControl>
+      <SearchProperties>
+        <AutomationId>btnCamera</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderShareButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>BookBuilderBrowser_Button_Submit</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="DeletePage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>DeleteImagechange</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderTitle">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>2</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BY">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>BY</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TextBox">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>PART_Edit</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderTrashCan">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>TrashCan</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="Page">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>PART_ScrollViewer</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PageTableTool">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LeftBar_Button_TableTools</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PageBackgroundTool">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LeftBar_Button_BackgroundSelection</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PageCameraTool">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>btnTools</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PageCrayonTool">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>RightBar_Button_Tool_Crayon</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PageMarkerTool">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>RightBar_Button_Tool_Marker</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PageBrushTool">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>RightBar_Button_Tool_Brush</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PageTypeTool">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>RightBar_Button_Tool_Type</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PageStampTool">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>RightBar_Button_Tool_Stamp</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PageColourTool">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>RightBar_Flyout_ColourPicker</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PageEraserTool">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>RightBar_Button_Tool_Eraser</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PageMoveTool">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>RightBar_Button_Tool_Move</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PageOfBook">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>BookBuilderAddPageView</ParentControl>
+      <SearchProperties>
+        <ClassName>TextBlock</ClassName>
+        <Instance>1</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AddPageIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>BookBuilderAddPageView</ParentControl>
+      <SearchProperties>
+        <AutomationId>GradeSelection_Image_Thumbnail_999</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="CoverPage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>BookBuilderAddPageView</ParentControl>
+      <SearchProperties>
+        <AutomationId>GradeSelection_Image_Thumbnail_1</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="FirstPage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>BookBuilderAddPageView</ParentControl>
+      <SearchProperties>
+        <AutomationId>GradeSelection_Image_Thumbnail_2</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="ChooseBookShapeHeader">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Choose Book Shape:</Name>
+      </SearchProperties>
+      <ControlType>TextBlock</ControlType>
+      <ControlText>Choose Book Shape:</ControlText>
+    </Control>
+    <Control ControlName="BookBuilderFirstNewBookTitle">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>2</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>BOOK BUILDER</ControlText>
+    </Control>
+    <Control ControlName="BookBuilderFirstNewBookHelp">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>3</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>BOOK BUILDER</ControlText>
+    </Control>
+    <Control ControlName="BookBuilderAddPageGrid">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>PageBrowser_GridViewExtended_Pages</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderAddPageView">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>BookBuilderAddPageGrid</ParentControl>
+      <SearchProperties>
+        <Name>Pearson.PSCK1.Common.ViewModels.PageBrowserCellViewModel</Name>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderEditButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>BookBuilderBrowser_Button_Edit</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderBookGrid">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>BookBuilderBrowser_GridView_BookBrowser</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderBookPanel">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>BookBuilderBookGrid</ParentControl>
+      <SearchProperties>
+        <Name>Pearson.PSCK1.Common.Models.BookBuilder.BookViewModel</Name>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderCover">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>BookBuilderBookPanel</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>2</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderBookTitle">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>BookBuilderBookPanel</ParentControl>
+      <SearchProperties>
+        <Name>()</Name>
+        <ClassName>TextBlock</ClassName>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderNewBookOnFirstTime">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LandingPage_Button_NewBook</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderNewBookOnFirstTimeImage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>BookBuilderNewBookOnFirstTime</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>1</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderPortraitOnFirstTime">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>CreateFirstBook_Button_Portrait</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderLandscapeOnFirstTime">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>CreateFirstBook_Button_Landscape</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderSquareOnFirstTime">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>CreateFirstBook_Button_Square</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderTitleText">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>PageBrowser_TextBox_Title</AutomationId>
+      </SearchProperties>
+      <ControlType>TextBox</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderAuthorText">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>PageBrowser_TextBox_Author</AutomationId>
+      </SearchProperties>
+      <ControlType>TextBox</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderMenu">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GlobalNavbar_Button_BookBuilder</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NewBookIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>BookBuilderBrowser_Button_NewSmall</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="Popup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Popup</Name>
+      </SearchProperties>
+      <ControlType>Popup</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="Flyout">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>Popup</ParentControl>
+      <SearchProperties>
+        <ClassName>Flyout</ClassName>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="ScrollViewer">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>Flyout</ParentControl>
+      <SearchProperties>
+        <AutomationId>ScrollViewer</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NewBookLandscapeIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>ScrollViewer</ParentControl>
+      <SearchProperties>
+        <AutomationId>BookBuilderBrowser_Button_Landscape</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NewBookSquareIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>ScrollViewer</ParentControl>
+      <SearchProperties>
+        <AutomationId>BookBuilderBrowser_Button_Square</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NewBookPortraitIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>ScrollViewer</ParentControl>
+      <SearchProperties>
+        <AutomationId>BookBuilderBrowser_Button_Portrait</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+  </View>
+  <View ViewName="UnitSelectionView">
+    <Control ControlName="GradesSelectionCancelButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GradesSelection_Button_Cancel</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Content Cancel Downloading</ControlText>
+    </Control>
+    <Control ControlName="ELAGradeLabel">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GradesSelection_ELAGradeLabel</AutomationId>
+      </SearchProperties>
+      <ControlType>Label</ControlType>
+      <ControlText>KINDERGARTEN</ControlText>
+    </Control>
+    <Control ControlName="MathGradeLabel">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GradesSelection_MATHGradeLabel</AutomationId>
+      </SearchProperties>
+      <ControlType>Label</ControlType>
+      <ControlText>KINDERGARTEN</ControlText>
+    </Control>
+    <Control ControlName="GradeSelectionELAGrid">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GradesSelection_ELAGridView</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="GradeSelectionELAGridView">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>GradeSelectionELAGrid</ParentControl>
+      <SearchProperties>
+        <AutomationId>GradesSelection_ELAGridView_0</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="GradeSelectionELA">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>GradeSelectionELAGridView</ParentControl>
+      <SearchProperties>
+        <AutomationId>GradesSelection_ELAGridView_0_K_ELA_()</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="GradeSelectionELAButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>GradeSelectionELA</ParentControl>
+      <SearchProperties>
+        <AutomationId>GradeSelection_Button_Unit_K_ELA_()</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="GradeSelectionELAGridView1">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>GradeSelectionELAGrid</ParentControl>
+      <SearchProperties>
+        <AutomationId>GradesSelection_ELAGridView_1</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="ELAUnitButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>GradeSelectionELAGridView</ParentControl>
+      <SearchProperties>
+        <AutomationId>GradeSelection_Button_Unit_K_ELA_()</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Unit ()</ControlText>
+    </Control>
+
+  </View>
+  <View ViewName="LoginView">
+    <Control ControlName="ItemGridView">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>ItemGridView</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="ListViewItem">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>ItemGridView</ParentControl>
+      <SearchProperties>
+        <ClassName>ListViewItem</ClassName>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PrivacyPolicyPopup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LoginSelection_ScrollViewer_Privacy</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PrivacyPolicyPopupClose">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>imgcancle</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="StudentLoginPasswordCancelReturnToLogin">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>Popup</ParentControl>
+      <SearchProperties>
+        <ClassName>Button</ClassName>
+        <Instance>4</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="LogoutConfirmPopup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>Popup</ParentControl>
+      <SearchProperties>
+        <Name>Log Out?</Name>
+      </SearchProperties>
+      <ControlType>Label</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AiroplaneImageHelloPage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>1</Instance>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="HelloBanner">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>2</Instance>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="StudentNameBanner">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>StudentLoginStartup_TextBlock_StudentName</AutomationId>
+      </SearchProperties>
+      <ControlType>Label</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TermsOfUse">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LoginSelection_HyperlinkButton_TOS</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TermsOfUsePopup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LoginSelection_ScrollVewer_TOS</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TermsOfUsePopupClose">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>imgcancleTermOfUses</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PrivacyStatement">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LoginSelection_HyperlinkButton_Privacy</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="WelcomeMessage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Welcome ()!</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Welcome ()!</ControlText>
+    </Control>
+    <Control ControlName="SelectTeacherName">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Pearson.PSCK1.Common.ViewModels.StudentLogin.TeacherStudentItemViewModel</Name>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherStudentSelectionButtonAccept">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>TeacherStudentSelection_Button_Accept</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="YouNeedToBeSetupOnDevicePopupMessage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>PopupBox</ParentControl>
+      <SearchProperties>
+        <Name>You need to be set up on this device.</Name>
+      </SearchProperties>
+      <ControlType>textblock</ControlType>
+      <ControlText>You need to be set up on this device.</ControlText>
+    </Control>
+    <Control ControlName="YouNeedToBeSetupOnDeviceHelpPopupMessage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>PopupBox</ParentControl>
+      <SearchProperties>
+        <Name>Help!</Name>
+      </SearchProperties>
+      <ControlType>textblock</ControlType>
+      <ControlText>Help!</ControlText>
+    </Control>
+    <Control ControlName="TryAgainPopupDuplicate">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Popup</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TryAgainTextDuplicate">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>TryAgainPopupDuplicate</ParentControl>
+      <SearchProperties>
+        <Name>Try Again!</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TryAgainPopup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Button</ClassName>
+        <Instance>13</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TryAgainPopupMessage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>TryAgainPopup</ParentControl>
+      <SearchProperties>
+        <Name>Try Again!</Name>
+      </SearchProperties>
+      <ControlType>Label</ControlType>
+      <ControlText>Try Again!</ControlText>
+    </Control>
+    <Control ControlName="HelpPopupMessage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>TryAgainPopup</ParentControl>
+      <SearchProperties>
+        <Name>Help!</Name>
+      </SearchProperties>
+      <ControlType>Label</ControlType>
+      <ControlText>Help!</ControlText>
+    </Control>
+    <Control ControlName="TryAgainPopupClose">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>CloseButton</AutomationId>
+      </SearchProperties>
+      <ControlType>button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="SchoolNameLoginPage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>TeacherLogin_TextBox_SchoolDistrict</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Student</ControlText>
+    </Control>
+    <Control ControlName="StudentLoginHomePage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LoginSelection_Button_Student</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Student</ControlText>
+    </Control>
+    <Control ControlName="StudentIAmNot">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>StudentLoginStartup_Button_IAmNot</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Student</ControlText>
+    </Control>
+    <Control ControlName="PopupBox">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>MainFrame_Button_Close</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Student</ControlText>
+    </Control>
+    <Control ControlName="NoInternetConnectionPopupMessage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>PopupBox</ParentControl>
+      <SearchProperties>
+        <Name>No internet connection.</Name>
+      </SearchProperties>
+      <ControlType>textblock</ControlType>
+      <ControlText>No internet connection.</ControlText>
+    </Control>
+    <Control ControlName="NoInternetConnectionPopupClose">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>PopupBox</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>2</Instance>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherAdminLoginButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LoginSelection_Button_TeacherAdmin</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Teacher / Admin Login</ControlText>
+    </Control>
+    <Control ControlName="StudentSetupButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Button</ClassName>
+        <Instance>2</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Set Up</ControlText>
+    </Control>
+    <Control ControlName="StudentLoginStartupButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>StudentLoginStartup_Button_LogIn</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Set Up</ControlText>
+    </Control>
+    <Control ControlName="BeginSetupButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>StudentLogin_Button_LogIn</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Begin Setup</ControlText>
+    </Control>
+    <Control ControlName="BeginSetupLoginButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>StudentLogin_Button_LogIn</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Log in</ControlText>
+    </Control>
+    <Control ControlName="NavigationBarGoBackButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Notebook_GoBack</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="UserNameTextboxOnStudentSetupScreen">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>StudentLogin_TextBox_Username</AutomationId>
+      </SearchProperties>
+      <ControlType>TextBox</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PasswordTextboxOnStudentSetupScreen">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>StudentLogin_TextBox_Password</AutomationId>
+      </SearchProperties>
+      <ControlType>TextBox</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="UserNameTextboxOnTeacherAdminScreen">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>TeacherLogin_TextBox_Username</AutomationId>
+      </SearchProperties>
+      <ControlType>TextBox</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PasswordTextboxOnTeacherAdminScreen">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>TeacherLogin_TextBox_Password</AutomationId>
+      </SearchProperties>
+      <ControlType>TextBox</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="LoginButtonOnTeacherAdminScreen">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>TeacherLogin_Button_LogIn</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PasswordSelectionColorButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>StudentPasswordSelection_Button_color()</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PasswordSelectionAnimalButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>StudentPasswordSelection_Button_animal()</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PasswordSelectionFruitButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>StudentPasswordSelection_Button_fruit()</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PasswordSelectionNextButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>StudentPasswordSelection_Button_Next</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PasswordSelectionCancelButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>StudentYourPasswordPage_Button_Cancel</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PasswordSelectionOkButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>StudentYourPasswordPage_Button_Ok</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PasswordSelectionNextSetButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>StudentYourPasswordPage_Button_Next</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PasswordSelectionCongratulationsButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>StudentCongratulationsPage_Button_LogIn</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="IncorrectLoginTryAgain">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Try Again&#33;</Name>
+      </SearchProperties>
+      <ControlType>TextBox</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="IncorrectLoginHelp">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Help&#33;</Name>
+      </SearchProperties>
+      <ControlType>TextBox</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="LoginSelectionButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>imgStudentlogin</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="StudentLoginStartup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>StudentLoginStartup_Button_LogIn</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="LogoutButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GlobalNavbar_Button_Logout</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Log out</ControlText>
+    </Control>
+    <Control ControlName="SystemTray">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>AppNavigationBar_Btn_SysTray</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="StudentLoginNoUserSetup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Button</ClassName>
+        <Instance>4</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="StudentLoginCancelNoUserSetup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>StudentLoginNoUserSetup</ParentControl>
+      <SearchProperties>
+        <ClassName>Button</ClassName>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="Popup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Popup</Name>
+      </SearchProperties>
+      <ControlType>Popup</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="StudentLoginPasswordResetPassword">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>Popup</ParentControl>
+      <SearchProperties>
+        <AutomationId>AcceptButton</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="IncorrectPicturePasswordErrorPopup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Button</ClassName>
+        <Instance>13</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="IncorrectPicturePasswordErrorPopupCancel">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>IncorrectPicturePasswordErrorPopup</ParentControl>
+      <SearchProperties>
+        <ClassName>Button</ClassName>
+        <Instance>2</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PickAColorCaptainImage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>5</Instance>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PickAColorImage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>5</Instance>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PickAColorFruitImage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>4</Instance>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="SetUpMode">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>4</Instance>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="LogoutConfirm">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>AcceptButton</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="LogoutCancel">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>CancelButton</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="StudentName">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>()</Name>
+      </SearchProperties>
+      <ControlType>TextBlock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BoatImage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <!--<AutomationId>imgboat</AutomationId>-->
+        <ClassName>Image</ClassName>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="CaptainImage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <!--<AutomationId>imganimalchange</AutomationId>-->
+        <AutomationId>StudentPasswordSelection_CaptainImageAutomationId_animal1</AutomationId>
+      </SearchProperties>
+      <ControlType>TextBlock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="FruitImage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>imgFruitChange</AutomationId>
+      </SearchProperties>
+      <ControlType>TextBlock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="LetsPractice2MoreTimes">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>tbpracticelable</AutomationId>
+      </SearchProperties>
+      <ControlType>TextBlock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="YourPasswordLabel">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Your Password:</Name>
+      </SearchProperties>
+      <ControlType>TextBlock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="HintArrowMark">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>3</Instance>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+  </View>
+  <View ViewName="SystemTrayView">
+
+    <Control ControlName="AssessmentsManagerSubMenuKindergartenButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>AssessmentManager_Section_Button0</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AssessmentsManagerSubMenuGrade1Button">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GlobalNavbar_Button_AssessmentManagerG1</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AssessmentsManagerButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GlobalNavbar_Button_AssessmentManager</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AssessmentsReportButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GlobalNavbar_Button_AssessmentReports</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AssessmentsReportSubMenuKindergartenButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>AssessmentReport_Section_Button0</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AssessmentsReportSubMenuGrade1Button">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>AssessmentReport_Section_Button0</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+    <Control ControlName="TeacherSupportButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GlobalNavbar_Button_TeacherSupport</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="SystemTrayUserNameTextBlock">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GlobalNavBar_TextBlock_Name</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookBuilderButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GlobalNavbar_Button_BookBuilder</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GlobalNavbar_Button_Inbox</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+    <Control ControlName="InboxSubMenuKindergartenButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GlobalNavbar_Button_InboxKG</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxSubMenuGrade1Button">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GlobalNavbar_Button_InboxG1</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+
+
+
+    <Control ControlName="UnitSelectionSelectedButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GlobalNavbar_Button_UnitSelection</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="SettingsButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GlobalNavbar_Button_Settings</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="LogoutButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GlobalNavbar_Button_Logout</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Log out</ControlText>
+    </Control>
+    <Control ControlName="SettingsSelectedButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GlobalNavbar_Button_SettingsSelected</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BackButtonConfigSettings">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>ConfigSettings_Button_GoBack</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherSupportSelectedButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GlobalNavbar_Button_TeacherSupportSelected</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+    <Control ControlName="UserImageInSystemTray">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>4</Instance>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+
+  </View>
+  <View ViewName="TeacherSupportView">
+    <Control ControlName="GrowYourSkillsBtn">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>TeacherSupport_Button_Skills</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PrepareYourLessonBtn">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>TeacherSupport_Button_Lessons</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="GetHelpBtn">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>TeacherSupport_Button_Help</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+    <Control ControlName="NoInternetConnectionPopupMessageHeader">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NoInternetConnectionPopup</ParentControl>
+      <SearchProperties>
+        <Name>No internet connection.</Name>
+      </SearchProperties>
+      <ControlType>textblock</ControlType>
+      <ControlText>No internet connection.</ControlText>
+    </Control>
+    <Control ControlName="NoInternetConnectionPopupMessageBody">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NoInternetConnectionPopup</ParentControl>
+      <SearchProperties>
+        <Name>You must be connected to the internet to access Teacher Support.</Name>
+      </SearchProperties>
+      <ControlType>textblock</ControlType>
+      <ControlText>You must be connected to the internet to access Teacher Support.</ControlText>
+    </Control>
+    <Control ControlName="NoInternetConnectionPopupMessageBodyClassRoster">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NoInternetConnectionPopup</ParentControl>
+      <SearchProperties>
+        <Name> You must be connected to the internet to access Show Password.</Name>
+      </SearchProperties>
+      <ControlType>textblock</ControlType>
+      <ControlText> You must be connected to the internet to access Show Password.</ControlText>
+    </Control>
+    <Control ControlName="NoPicturePasswordSetupPopupforStudent">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NoInternetConnectionPopup</ParentControl>
+      <SearchProperties>
+        <Name> The picture password for this student has not been set up.</Name>
+      </SearchProperties>
+      <ControlType>textblock</ControlType>
+      <ControlText> The picture password for this student has not been set up.</ControlText>
+    </Control>
+
+    <Control ControlName="NoInternetConnectionPopup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Button</ClassName>
+        <Instance>6</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NoInternetConnectionPopupClose">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NoInternetConnectionPopup</ParentControl>
+      <SearchProperties>
+        <AutomationId>CloseButton</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+  </View>
+  <View ViewName="GradeSelectionView">
+
+    <Control ControlName="GradeSelectionMathButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>GradeSelectionMathKGridView0</ParentControl>
+      <SearchProperties>
+        <AutomationId>GradeSelection_Button_Unit_K_MATH_()</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Unit ()</ControlText>
+    </Control>
+    <Control ControlName="GradeSelectionMathKGridView0">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>GradeSelectionMathGridView</ParentControl>
+      <SearchProperties>
+        <AutomationId>GradesSelection_MathGridView_0_K_MATH_()</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Unit ()</ControlText>
+    </Control>
+    <Control ControlName="GradeSelectionMathGridView">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>GradeSelectionMathGridViewParent</ParentControl>
+      <SearchProperties>
+        <AutomationId>GradesSelection_MathGridView_()</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Unit ()</ControlText>
+    </Control>
+    <Control ControlName="GradeSelectionMathGridViewParent">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>GradesSelection_MathGridView</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Unit ()</ControlText>
+    </Control>
+    <Control ControlName="UnitHomeScreenTodayBtn">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Today_Button_TodayButton</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Today</ControlText>
+    </Control>
+    <Control ControlName="UnitHomeScreenForegroundImage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>foregroundImage</AutomationId>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="UnitHomeScreenIntroVdo">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Today_Button_UnitIntro</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>Today</ControlText>
+    </Control>
+  </View>
+  <View ViewName="NavigationBarView">
+    <Control ControlName="NavigationBarMediaLibraryBtn">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>AppNavigationBar_Btn_Library</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NavigationBarNotebookBtn">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>AppNavigationBar_Btn_Notebook</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NavigationBarHomeBtn">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>AppNavigationBar_Btn_Home</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NavigationBarMTEBtn">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>AppNavigationBar_Btn_MTE</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NavigationBarTeacherModeBtn">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>AppNavigationBar_Btn_TeacherMode</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+  </View>
+  <View ViewName="MediaLibraryView">
+    <Control ControlName="MediaLibraryGridModel">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>MediaLibraryGrid</ParentControl>
+      <SearchProperties>
+        <Name>Pearson.PSCK1.Common.Models.MediaLibraryByTool</Name>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType>listviewitem</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="MediaLibraryGrid">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>ListView</ClassName>
+      </SearchProperties>
+      <ControlType>listviewitem</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="MediaLibraryGridViewItem">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>MediaLibraryGridModel</ParentControl>
+      <SearchProperties>
+        <AutomationId>MediaLibrary_GridView_Items</AutomationId>
+      </SearchProperties>
+      <ControlType>GridViewItem</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="MediaLibraryThumbnailActivityView">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>MediaLibraryGridViewItem</ParentControl>
+      <SearchProperties>
+        <Name>Pearson.PSCK1.Common.ViewModels.MediaLibraryActivityViewModel</Name>
+      </SearchProperties>
+      <ControlType>GridViewItem</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="MediaLibraryThumbnailActivityViewImage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>MediaLibraryThumbnailActivityView</ParentControl>
+      <SearchProperties>
+        <AutomationId>MediaLibrary_Image_MediaLibraryActivity0-0</AutomationId>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+    
+
+
+
+    <Control ControlName="MediaLibraryGridModelShelf2">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>MediaLibraryGrid</ParentControl>
+      <SearchProperties>
+        <Name>Pearson.PSCK1.Common.Models.MediaLibraryByTool</Name>
+        <Instance>2</Instance>
+      </SearchProperties>
+      <ControlType>listviewitem</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="MediaLibraryGridViewItemShelf2">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>MediaLibraryGridModelShelf2</ParentControl>
+      <SearchProperties>
+        <AutomationId>MediaLibrary_GridView_Items</AutomationId>
+      </SearchProperties>
+      <ControlType>GridViewItem</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="MediaLibraryThumbnailActivityViewShelf2Items">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>MediaLibraryGridViewItemShelf2</ParentControl>
+      <SearchProperties>
+        <Name>Pearson.PSCK1.Common.ViewModels.MediaLibraryActivityViewModel</Name>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType>GridViewItem</ControlType>
+      <ControlText></ControlText>
+    </Control>
+  </View>
+  <View ViewName="VideoView">
+    <Control ControlName="VideoPlayer">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>CreateFirstBook_MediaElement_Player</AutomationId>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="VideoPlayerBackButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>CustomVideoPlayer_Button_GoBack</AutomationId>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+  </View>
+  <View ViewName="LessonsViewInEla">
+    <Control ControlName="TodayButtonLessonPrevious">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Today_Button_Previous</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TodayButtonLessonNext">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Today_Button_Next</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <!--<Control ControlName="LessonTodaysGridView">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Today_GridView_TodayGrid</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="LessonTodaysViewActivityViewModel">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>LessonTodaysGridView</ParentControl>
+      <SearchProperties>
+        <Name>Pearson.PSCK1.Common.ViewModels.TodaysViewActivityViewModel</Name>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType>ViewModel</ControlType>
+      <ControlText></ControlText>
+    </Control>-->
+    <Control ControlName="BookLogThumbnail">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>TodaysViewThumbnailButton</ParentControl>
+      <SearchProperties>
+        <AutomationId>TodaysView_Image_Thumbnail_()Booklog</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>BookLog</ControlText>
+    </Control>
+    <Control ControlName="ColdWriteThumbnail">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>TodaysViewThumbnailButton</ParentControl>
+      <SearchProperties>
+        <AutomationId>TodaysView_Image_Thumbnail_14Unknowntype</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText>BookLog</ControlText>
+    </Control>
+    <Control ControlName="TodayLessonVideoThumbnail">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>TodaysViewThumbnailButton</ParentControl>
+      <SearchProperties>
+        <AutomationId>TodaysView_Image_Thumbnail_()Video</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TodayLessonImageThumbnail">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>TodaysViewThumbnailButton</ParentControl>
+      <SearchProperties>
+        <AutomationId>TodaysView_Image_Thumbnail_()Book</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TodayLessonInteractiveThumbnail">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>TodaysViewThumbnailButton</ParentControl>
+      <SearchProperties>
+        <AutomationId>TodaysView_Image_Thumbnail_()Game</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TodayLessonEReaderThumbnail">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>TodaysViewThumbnailButton</ParentControl>
+      <SearchProperties>
+        <AutomationId>TodaysView_Image_Thumbnail_()Book</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TodaysViewScrollViewer">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>ScrollViewer</ClassName>
+      </SearchProperties>
+      <ControlType>Pane</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TodaysViewThumbnailButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>TodaysViewScrollViewer</ParentControl>
+      <SearchProperties>
+        <ClassName>Button</ClassName>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+  </View>
+  <View ViewName="ImagePlayerView">
+    <Control ControlName="ImagePlayerGoBackButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>ImagePlayer_Button_GoBack</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+  </View>
+  <View ViewName="BookLogView">
+    <Control ControlName="BookLogAddButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>BookLog_Button_Add</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="BookLogUnitHeader">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+        <Instance>2</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AddButtonFlyout">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Flyout</ClassName>
+      </SearchProperties>
+      <ControlType>Flyout</ControlType>
+      <ControlText></ControlText>
+    </Control>
+  </View>
+  <View ViewName="InteractiveView">
+    <Control ControlName="InteractiveGoBackButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Interactive_Button_Automation</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InteractiveHeader">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Interactive</Name>
+      </SearchProperties>
+      <ControlType>label</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InteractiveSendToNotebookButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Button</ClassName>
+        <Instance>6</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InteractiveSendToNotebookPopup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Popup</ClassName>
+      </SearchProperties>
+      <ControlType>Popup</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InteractiveSendToNotebookPopupCancel">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>InteractiveSendToNotebookPopup</ParentControl>
+      <SearchProperties>
+        <AutomationId>CancelButton</AutomationId>
+      </SearchProperties>
+      <ControlType>button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InteractiveSendToNotebookPopupAccept">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>InteractiveSendToNotebookPopup</ParentControl>
+      <SearchProperties>
+        <AutomationId>AcceptButton</AutomationId>
+      </SearchProperties>
+      <ControlType>button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+  </View>
+  <View ViewName="TeacherModeView">
+    <Control ControlName="TeacherModeMenuFlyout">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Menu FLyout</ClassName>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="UnitOverviewMenuItem">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>TeacherModeMenuFlyout</ParentControl>
+      <SearchProperties>
+        <Name>Unit Overview</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="LessonOverviewMenuItem">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>TeacherModeMenuFlyout</ParentControl>
+      <SearchProperties>
+        <Name>Lesson Overview</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="LessonGuideMenuItem">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>TeacherModeMenuFlyout</ParentControl>
+      <SearchProperties>
+        <Name>Lesson Guide</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="UnitOverviewTeacherMode">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Unit Overview</Name>
+      </SearchProperties>
+      <ControlType>Textblock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="LessonOverviewTeacherMode">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Lesson Overview</Name>
+      </SearchProperties>
+      <ControlType>Textblock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="LessonGuideTeacherMode">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Lesson Guide</Name>
+      </SearchProperties>
+      <ControlType>Textblock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherModeExpandButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>TeacherMode_Button_Expand</AutomationId>
+      </SearchProperties>
+      <ControlType>button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherModePane">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>ContentWebView</AutomationId>
+      </SearchProperties>
+      <ControlType>pane</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherModeMyClassRoster">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>btnMyClassRoster</AutomationId>
+      </SearchProperties>
+      <ControlType>button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherModeMyLessonNotes">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>btnMyLessonNotes</AutomationId>
+      </SearchProperties>
+      <ControlType>button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherModeMyClassRosterStudentList">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>studentList</AutomationId>
+      </SearchProperties>
+      <ControlType>list</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherModeMyClassRosterStudentListTile">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>TeacherModeMyClassRosterStudentList</ParentControl>
+      <SearchProperties>
+        <Name>Pearson.PSCK1.Common.ViewModels.TeacherMode.TeacherModeRosterCellViewModel</Name>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType>GridView</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherModeMyClassRosterStudentListTileName">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>TeacherModeMyClassRosterStudentListTile</ParentControl>
+      <SearchProperties>
+        <ClassName>TextBlock</ClassName>
+      </SearchProperties>
+      <ControlType>TextBlock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherModeMyClassRosterStudentListTileShowPwd">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>TeacherModeMyClassRosterStudentListTile</ParentControl>
+      <SearchProperties>
+        <Name>ShowPasswordBtn</Name>
+      </SearchProperties>
+      <ControlType>TextBlock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherModeMyLessonNotesPane">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>ScrollViewer</ClassName>
+        <Instance>2</Instance>
+      </SearchProperties>
+      <ControlType>Pane</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherModeTapHereToAddNotes">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Tap here to add notes for this lesson.</Name>
+      </SearchProperties>
+      <ControlType>textblock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherModeMyLessonNotesPaneNoteText">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>TeacherModeMyLessonNotesPane</ParentControl>
+      <SearchProperties>
+        <Name>()</Name>
+      </SearchProperties>
+      <ControlType>TextBlock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AddLessonNotesOverlayClose">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>CloseButton</AutomationId>
+      </SearchProperties>
+      <ControlType>button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherModeNotesEditButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LessonNotes_Button_Edit</AutomationId>
+      </SearchProperties>
+      <ControlType>button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AddLessonNotesOverlayHeader">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Add your notes</Name>
+      </SearchProperties>
+      <ControlType>button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AddLessonNotesOverlayTextBox">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>NotesTextBox</AutomationId>
+      </SearchProperties>
+      <ControlType>button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AddLessonNotesOverlayCancel">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LessonNotes_Button_Cancel</AutomationId>
+      </SearchProperties>
+      <ControlType>button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AddLessonNotesOverlayDelete">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LessonNotes_Button_Delete</AutomationId>
+      </SearchProperties>
+      <ControlType>button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AddLessonNotesOverlaySave">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LessonNotes_Button_Save</AutomationId>
+      </SearchProperties>
+      <ControlType>button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AddLessonNotesOverlayDone">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LessonNotes_Button_Done</AutomationId>
+      </SearchProperties>
+      <ControlType>button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherModeClassRosterNoStudents">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>You do not have any students associated with your classroom.</Name>
+      </SearchProperties>
+      <ControlType>textblock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+
+  </View>
+  <View ViewName="EReaderView">
+    <Control ControlName="GoBackButtonEReader">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Ereader_Button_GoBack</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="EReaderOpenAnnotation">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Ereader_Button_OpenAnnotation</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="EReaderCloseAnnotation">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Ereader_Button_CloseAnnotations</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="EReaderGooglyEyesClose">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Ereader_Button_GooglyEyesClose</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="EReaderGooglyEyesOpen">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Ereader_Button_GooglyEyesOpen</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="EReaderSendToNotebook">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Ereader_Button_SendToNotebookTop</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="EReaderNextButtonBottom">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Ereader_ButtonNextBottom</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="EReaderPrevButtonBottom">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Ereader_Button_PrevBottom</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="EReaderPageNumber">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>()</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="EReaderNextButtonAnnotation">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Ereader_Button_Next</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="EReaderPrevButtonAnnotation">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Ereader_Button_Previous</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="EReaderSendToNotebookAnnotation">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Ereader_Button_SendToNotebook</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="GoBackButtonEReaderAnnotation">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Ereader_Button_BackFromAnnotation</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="EReaderAnnotationMode">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>PART_ScrollViewer</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="EReaderAnnotationCropMode">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>PART_Image</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="EReaderAnnotationCropRedCross">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Screenshot_Button_Cancel</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="EReaderAnnotationCropGreenAccept">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Screenshot_Button_Accept</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+  </View>
+  <View ViewName="NotebookView">
+    <Control ControlName="CameraOkBotton">
+      <ParentControl>AppWindow</ParentControl>
+      <ControlZone>DirectUI</ControlZone>
+      <SearchProperties>
+        <AutomationId>idPhotoAcceptBtn</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="Accept">
+      <ParentControl>AppWindow</ParentControl>
+      <ControlZone>DirectUI</ControlZone>
+      <SearchProperties>
+        <AutomationId>Button1</AutomationId>
+      </SearchProperties>
+      <ControlType>TouchButton</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookPageImage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>SnapshotImage</AutomationId>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookPane">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>PART_ScrollViewer</AutomationId>
+      </SearchProperties>
+      <ControlType>ScrollViewer</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookSnapshotThumbnail">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookPane</ParentControl>
+      <SearchProperties>
+        <AutomationId>PART_Image</AutomationId>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookMediaSnapshotThumbnail">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookPane</ParentControl>
+      <SearchProperties>
+        <AutomationId>PART_Media</AutomationId>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookMediaAudioPlayingThumbnail">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookPane</ParentControl>
+      <SearchProperties>
+        <AutomationId>PlayingImage</AutomationId>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookMediaAudioNotPlayingThumbnail">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookPane</ParentControl>
+      <SearchProperties>
+        <AutomationId>NotPlayingImage</AutomationId>
+      </SearchProperties>
+        <ControlType>Image</ControlType>
+        <ControlText></ControlText>
+      </Control>
+    <Control ControlName="SnapshotBackground">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookPane</ParentControl>
+      <SearchProperties>
+        <AutomationId>PART_background</AutomationId>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookSnapshotThumbnailClose">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookPane</ParentControl>
+      <SearchProperties>
+        <AutomationId>CloseButton</AutomationId>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+
+
+    <Control ControlName="NotebookBackButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Notebook_GoBack</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookHandIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>RightBar_Button_Tool_Move</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookTextIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>RightBar_Button_Tool_Type</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookCrayonIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>RightBar_Button_Tool_Crayon</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookToolBrushIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>RightBar_Button_Tool_Brush</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookToolMarkerIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>RightBar_Button_Tool_Marker</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookToolStampIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>RightBar_Button_Tool_Stamp</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookToolColourPickerIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>RightBar_Flyout_ColourPicker</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookToolEraseIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>RightBar_Button_Tool_Eraser</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+    <Control ControlName="NotebookTextBox">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookPane</ParentControl>
+      <SearchProperties>
+        <AutomationId>PART_Edit</AutomationId>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookTextBoxClose">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookPane</ParentControl>
+      <SearchProperties>
+        <AutomationId>CloseButton</AutomationId>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+    <Control ControlName="NotebookClearAllIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>TopBar_Button_Clear</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookPopupAccept">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>AcceptButton</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookPopupCancel">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>CancelButton</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookAddPageIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>RightBar_Button_Tool_Add</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookAddPageIconOnNotebookScreen">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Button</ClassName>
+        <Instance>1</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookPageNumber">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>TextBlock</ClassName>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType>TextBlock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookPreviousButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>NotebookSelection_Button_Previous</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookNextButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>NotebookSelection_Button_Next</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+    <Control ControlName="NotebookUndoIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>TopBar_Button_Undo</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookRedoIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>TopBar_Button_Redo</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookBackgroundChangeFlyout">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Flyout</ClassName>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookBackgroundChangePane">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookBackgroundChangeFlyout</ParentControl>
+      <SearchProperties>
+        <AutomationId>PART_ScrollViewer</AutomationId>
+      </SearchProperties>
+      <ControlType>ScrollViewer</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookBackgroundGrid">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookBackgroundChangePane</ParentControl>
+      <SearchProperties>
+        <AutomationId>LeftBar_Button_GridBackground</AutomationId>
+      </SearchProperties>
+      <ControlType>ScrollViewer</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookBackgroundImageNotPlainBackgroundInPane">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookPane</ParentControl>
+      <SearchProperties>
+        <ClassName>Image</ClassName>
+      </SearchProperties>
+      <ControlType>Image</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookPageBackgroundSelectionIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LeftBar_Button_BackgroundSelection</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookMathToolsIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LeftBar_Button_MathTools</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+    <Control ControlName="NotebookTableExpandEastButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookPane</ParentControl>
+      <SearchProperties>
+        <AutomationId>East</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookTableExpandSouthButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookPane</ParentControl>
+      <SearchProperties>
+        <AutomationId>South</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookTableToolIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookBackgroundChangePane</ParentControl>
+      <SearchProperties>
+        <ClassName>Button</ClassName>
+        <Instance>2</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookTableCells">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookPane</ParentControl>
+      <SearchProperties>
+        <ClassName>TextBox</ClassName>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType>TextBox</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookShareAirplaneIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Notebook_Share</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherShareAirplaneIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Teacher_Share</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookShareConfirmationTeacherScrollName">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Teacher_List_ScrollViewer</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookShareConfirmationTeacherName">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookShareConfirmationTeacherScrollName</ParentControl>
+      <SearchProperties>
+        <Name>()</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookShareConfirmationRedXIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Share_Deny</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookShareConfirmationGreenAcceptIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Share_Accept</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookShareSentAlertPopup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Popup</ClassName>
+      </SearchProperties>
+      <ControlType>Popup</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookShareSentAlertPopupClose">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookShareSentAlertPopup</ParentControl>
+      <SearchProperties>
+        <AutomationId>CloseButton</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookShareSentAlertPopupSentMessage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookShareSentAlertPopup</ParentControl>
+      <SearchProperties>
+        <Name>Sent!</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookColorPickerSubMenuPopup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Popup</ClassName>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="ScaleNumberLineColorCircle">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookPane</ParentControl>
+      <SearchProperties>
+        <AutomationId>ColorButton</AutomationId>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookSubMenusPopup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Popup</ClassName>
+      </SearchProperties>
+      <ControlType>Popup</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="SubMenuFlyout">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookSubMenusPopup</ParentControl>
+      <SearchProperties>
+        <ClassName>Flyout</ClassName>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="SubMenuScrollViewer">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>SubMenuFlyout</ParentControl>
+      <SearchProperties>
+        <ClassName>ScrollViewer</ClassName>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="ScalePopupColorButtons">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>SubMenuScrollViewer</ParentControl>
+      <SearchProperties>
+        <ClassName>Button</ClassName>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+    <Control ControlName="LandscapeIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>SubMenuScrollViewer</ParentControl>
+      <SearchProperties>
+        <AutomationId>btnPicker</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="CameraCaptureAcceptButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>SubMenuScrollViewer</ParentControl>
+      <SearchProperties>
+        <AutomationId>CameraCapture_Button_Accept</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="CameraCaptureCancelButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>SubMenuScrollViewer</ParentControl>
+      <SearchProperties>
+        <AutomationId>CameraCapture_Button_Cancel</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="SelectPhoto">
+      <ParentControl>AppWindow</ParentControl>
+      <ControlZone>DirectUI</ControlZone>
+      <SearchProperties>
+        <ClassName>CFileSystemElement</ClassName>
+      </SearchProperties>
+      <ControlType>ListItem</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="OpenAddPhoto">
+      <ParentControl>AppWindow</ParentControl>
+      <ControlZone>DirectUI</ControlZone>
+      <SearchProperties>
+        <AutomationId>CommitButton</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="ScaleNumberLineNumbers">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>NotebookPane</ParentControl>
+      <SearchProperties>
+        <Name>()</Name>
+      </SearchProperties>
+      <ControlType>TextBlock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NotebookAudioRecordTimer">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>TextBlock</ClassName>
+        <Instance>4</Instance>
+      </SearchProperties>
+      <ControlType>TextBlock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+  </View>
+
+  <View ViewName="AssessmentView">
+    <Control ControlName="AssessmentOverviewTitle">
+      <ParentControl>AppWindow</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <Name>Assessment Progress Overview</Name>
+      </SearchProperties>
+      <ControlType>text</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="UnitAssessmentPane">
+      <ParentControl>AppWindow</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <ClassName>ScrollViewer</ClassName>
+      </SearchProperties>
+      <ControlType>pane</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="FixedAssessmentsList">
+      <ParentControl>UnitAssessmentPane</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <AutomationId>FixedAssessments</AutomationId>
+      </SearchProperties>
+      <ControlType>list</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="FixedAssessmentsItem">
+      <ParentControl>FixedAssessmentsList</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <ClassName>ListViewItem</ClassName>
+        <instance>()</instance>
+      </SearchProperties>
+      <ControlType>listitem</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="UnitAssessmentPane">
+      <ParentControl>AppWindow</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <ClassName>ScrollViewer</ClassName>
+      </SearchProperties>
+      <ControlType>pane</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="FixedAssessmentsList">
+      <ParentControl>UnitAssessmentPane</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <AutomationId>FixedAssessments</AutomationId>
+      </SearchProperties>
+      <ControlType>list</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="FixedAssessmentsItem">
+      <ParentControl>FixedAssessmentsList</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <ClassName>ListViewItem</ClassName>
+        <instance>()</instance>
+      </SearchProperties>
+      <ControlType>listitem</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+    <Control ControlName="Pending">
+      <ParentControl>FixedAssessmentButton</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <Name>Pending</Name>
+      </SearchProperties>
+      <ControlType>text</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="FixedAssessmentButton">
+      <ParentControl>ListViewItem</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <ClassName>Button</ClassName>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="ListViewItem">
+      <ParentControl>ListView</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <ClassName>ListViewItem</ClassName>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType>ListItem</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="PopupWindowDropdown">
+      <ParentControl>AppWindow</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <AutomationId>Popup</AutomationId>
+      </SearchProperties>
+      <ControlType>Window</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="FlyoutPane">
+      <ParentControl>PopupWindowDropdown</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <ClassName>Flyout</ClassName>
+      </SearchProperties>
+      <ControlType>pane</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="DropdownPane">
+      <ParentControl>FlyoutPane</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <AutomationId>ScrollViewer</AutomationId>
+      </SearchProperties>
+      <ControlType>pane</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="HeaderListView">
+      <ParentControl>DropdownPane</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <AutomationId>HederFlyoutListView</AutomationId>
+      </SearchProperties>
+      <ControlType>list</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="DropdownUnitSelect">
+      <ParentControl>HeaderListView</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <Name>Pearson.PSCK1.Common.ViewModels.Assessments.K1AssessmentSummaryContextMenuViewModel</Name>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType>listitem</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="DropdownUnitSelectRadioButton">
+      <ParentControl>DropdownUnitSelect</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <ClassName>RadioButton</ClassName>
+      </SearchProperties>
+      <ControlType>RadioButton</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+    <Control ControlName="UnitLabelInDropDown">
+      <ParentControl>DropdownUnitSelectRadioButton</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <AutomationId>UnitAssessText</AutomationId>
+      </SearchProperties>
+      <ControlType>textblock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="LastUpdatedDateAndTime">
+      <ParentControl>AppWindow</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <ClassName>TextBlock</ClassName>
+        <Instance>3</Instance>
+      </SearchProperties>
+      <ControlType>text</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="RefreshButton">
+      <ParentControl>AppWindow</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <AutomationId>RefreshButton</AutomationId>
+      </SearchProperties>
+      <ControlType>button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="LastUpdatedText">
+      <ParentControl>AppWindow</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <Name>Last Updated:</Name>
+      </SearchProperties>
+      <ControlType>Text</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="OnGoingLink">
+      <ParentControl>ListViewOnGoing</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <Name>Ongoing Assessments</Name>
+      </SearchProperties>
+      <ControlType>pane</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="ListViewOnGoing">
+      <ParentControl>ScrollViewer</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <AutomationId>OngoingAssessments</AutomationId>
+      </SearchProperties>
+      <ControlType>list view</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="ScrollViewer">
+      <ParentControl>AppWindow</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <ClassName>ScrollViewer</ClassName>
+      </SearchProperties>
+      <ControlType>pane</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="ListView">
+      <ParentControl>ScrollViewer</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <ClassName>ListView</ClassName>
+      </SearchProperties>
+      <ControlType>List View</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="FixedAssessmentLink">
+      <ParentControl>ListView</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <Name>Fixed Assessments</Name>
+      </SearchProperties>
+      <ControlType>pane</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="UnitTitleDropDownButton">
+      <ParentControl>AppWindow</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <AutomationId>TitleButtonContextMenu</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AssessmentManagerSectionButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>AssessmentManager_Section_Button0</AutomationId>
+      </SearchProperties>
+      <ControlType>Popup</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AssessmentReportSectionButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>AssessmentReport_Section_Button0</AutomationId>
+      </SearchProperties>
+      <ControlType>Popup</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AssessmentManagerScreen">
+      <ParentControl>AppWindow</ParentControl>
+      <ControlZone>Native</ControlZone>
+      <SearchProperties>
+        <Name>Assessment Manager</Name>
+      </SearchProperties>
+      <ControlType>text</ControlType>
+      <ControlText></ControlText>
+    </Control>
+
+  </View>
+  <View ViewName="AssessmentViewColdWrite">
+    <Control ControlName="AssessmentColdWritePopup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>Popup</ClassName>
+      </SearchProperties>
+      <ControlType>Popup</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AssessmentColdWriteGoBackButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AssessmentColdWritePopup</ParentControl>
+      <SearchProperties>
+        <AutomationId>BonusContent_Button_GoBack</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AssessmentColdWriteGoToNotebookButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AssessmentColdWritePopup</ParentControl>
+      <SearchProperties>
+        <AutomationId>ColdWrite_Button_GoToNotebook</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AssessmentOpenColdWriteNotebook">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Notebook_Open_ColdWrite</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+  </View>
+  <View ViewName="SettingsView">
+    <Control ControlName="SettingsPage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Settings</Name>
+      </SearchProperties>
+      <ControlType>TextBlock</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="AppVersion">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>ConfigSettings_TextBlock_AppVersion</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="ConfigVersion">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>ConfigSettings_TextBlock_ConfigVersion</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="ConfigServer">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Caching Server: Not Available</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="NoContentMessage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>No Content has been downloaded on this device.</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="ContentDownloadedMessage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>MATH</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="UpdateContentButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>Update Content</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+  </View>
+  <View ViewName="BackPackView">
+    <Control ControlName="BackPackIcon">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>AppNavigationBar_Btn_Backpack</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+  </View>
+
+  <View ViewName="InboxView">
+    <Control ControlName="InboxNoItemMessage">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <Name>There are no items in the Inbox.</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxToggleButtonELA">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Inbox_ELA</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxToggleButtonMath">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Inbox_Math</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxScrollViewer">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>ScrollViewer</ClassName>
+        <Instance>()</Instance>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxSharedWorkTileItem">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>InboxScrollViewer</ParentControl>
+      <SearchProperties>
+        <AutomationId>Inbox_Item</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxSharedWorkTileItemCheckBox">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>InboxScrollViewer</ParentControl>
+      <SearchProperties>
+        <ClassName>ToggleButton</ClassName>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherAnnotationGooglyEyesClose">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>TeacherAnnotations_Button_GooglyEyesOff</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxDeleteButton">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Delete</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="TeacherAnnotationGooglyEyesOpen">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>TeacherAnnotations_Button_GooglyEyesOn</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxSortingCalenderMode">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Calendar_Mode_View</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxSortingStudentMode">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>Student_Mode_View</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxTeacherReviewAudioPopup">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <ClassName>popup</ClassName>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxTeacherReviewAudioClose">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>InboxTeacherReviewAudioPopup</ParentControl>
+      <SearchProperties>
+        <AutomationId>CloseButton</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxTeacherReviewAudioOverlay">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>InboxTeacherReviewAudioPopup</ParentControl>
+      <SearchProperties>
+        <Name>Review Audio</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxTeacherReviewAudioProgressBar">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>InboxTeacherReviewAudioPopup</ParentControl>
+      <SearchProperties>
+        <AutomationId>ProgressBar</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxTeacherReviewAudioReRecord">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>InboxTeacherReviewAudioPopup</ParentControl>
+      <SearchProperties>
+        <AutomationId>AudioReview_Button_RerecordOff</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxTeacherReviewAudioReRecordOn">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>InboxTeacherReviewAudioPopup</ParentControl>
+      <SearchProperties>
+        <AutomationId>AudioReview_Button_RerecordOn</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxTeacherReviewAudioRemove">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>InboxTeacherReviewAudioPopup</ParentControl>
+      <SearchProperties>
+        <AutomationId>AudioReview_Button_Remove</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxTeacherReviewAudioApply">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>InboxTeacherReviewAudioPopup</ParentControl>
+      <SearchProperties>
+        <AutomationId>AudioReview_Button_ApplyOn</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxTeacherReviewAudioPlayNotPlaying">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>InboxTeacherReviewAudioPopup</ParentControl>
+      <SearchProperties>
+        <AutomationId>AudioReview_Image_NotPlaying</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxTeacherReviewAudioFeedbackSave">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>InboxTeacherReviewAudioPopup</ParentControl>
+      <SearchProperties>
+        <Name>Your audio feedback was saved.</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxTeacherReviewAudioFeedbackRemoved">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>InboxTeacherReviewAudioPopup</ParentControl>
+      <SearchProperties>
+        <Name>Your audio feedback was removed.</Name>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxTeacherAudioCommentsMicrophone">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LeftBar_Button_Mic</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    <Control ControlName="InboxTeacherAudioCommentsMicrophoneChecked">
+      <ControlZone>Native</ControlZone>
+      <ParentControl>AppWindow</ParentControl>
+      <SearchProperties>
+        <AutomationId>LeftBar_Button_MicChecked</AutomationId>
+      </SearchProperties>
+      <ControlType>Button</ControlType>
+      <ControlText></ControlText>
+    </Control>
+    
+  </View>
+</Controls>

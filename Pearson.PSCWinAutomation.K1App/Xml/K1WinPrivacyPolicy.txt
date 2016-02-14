@@ -1,0 +1,58 @@
+Privacy Statement
+
+Welcome to our Application for the Pearson System of Courses ("PSoC" and the Application hereinafter called the "App" or "Application"). The Application operates on an App Supported Device from which you may access Pearson’s PSoC product, which is a software application that delivers Math and ELA instructional content on a mobile digital device or other computing system. "App Supported Device" means a mobile, computer or other electronic device with an operating system that is capable of running and supporting the App. This statement provides general information about the privacy statement of this App ("Privacy Statement"). If you are under 18 years of age, please be sure to read this Privacy Statement with your parents or guardian and ask them questions about what you do not understand.
+
+Your use of this App constitutes acceptance by you of this Privacy Statement. Pearson Education, Inc. and its subsidiaries and affiliates ("Pearson") are providing you this Application based on your school or school district’s adoption of the PSoC. This Privacy Statement discloses how we collect, protect, use and share information gathered on this Application. Your use of this Application is further subject to the terms of use ("Terms of Use") posted on this App (this Privacy Statement is part of the Terms of Use). You should review this Privacy Statement on a regular basis. Pearson reserves the right to revise this Privacy Statement at any time, including to address new issues or reflect changes to our Application. Such revisions become effective immediately upon notice to you. Notice may be given by any means including, but not limited to, posting the revised Privacy Statement on this Application. Information Collected and Purpose of Collection:
+
+Pearson may collect and store certain types of personally identifying information through the Application. However, all personal identifying information about students is requested and collected at the school or school district level through teachers and other school administrators. We consider the following to be examples of personally identifying information: your first and last name, email address, home address, phone number, date of birth, and other similar information. Pearson does not collect personally identifying information about students unless it is voluntarily provided by your school or school district. PLEASE NOTE THAT WE DO NOT CONSIDER ANY INFORMATION THAT IS NOT ASSOCIATED WITH YOUR PERSONALLY IDENTIFYING INFORMATION (ANONYMIZED OR AGGREGATED INFORMATION) TO BE PERSONALLY IDENTIFYING INFORMATION.
+
+The information we learn from you helps us personalize and continually improve your experience and use of this Application so that we can further serve your needs and our educational needs. During your use of the Application, you may generate or upload certain content ("User Content") to the Application and we may store and link such User Content to your personally identifying information. In addition, we may collect information about your usage of a respective time spent on a service, pages visited and detailed session data in connection with a specific service and other similar information ("Service Usage Information"). We may use this User Content and Service Usage Information to customize your experience using the Application by, among other things, making recommendations or forecasts. We may also use your User Content and Service Usage Information to suggest other features on the Application that we believe may be beneficial to you. Please refer to section below entitled "Cookies and Other Technology Used to Collect Information" for more information on the process and methodology of collecting and sharing certain Service Usage Information. Special Notice to Parents, Teachers and Children
+
+• Parents and Teachers:
+
+When using this Application, we encourage parents, guardians and teachers to spend time with their children, especially if the child is 12 and under ("Child" or "Children"). We will never request personally identifiable information from a Child. WE ASK PARENTS TO HELP US PROTECT THEIR CHILDREN’S PRIVACY BY INSTRUCTING THEM NEVER TO PROVIDE PERSONALLY IDENTIFIABLE INFORMATION ON THIS APPLICATION OR ANY OTHER SITE WITHOUT FIRST GETTING PARENTAL/GUARDIAN OR TEACHER PERMISSION
+
+• Children:
+
+Please do not give your full name, email address, home address, telephone number or any other personally identifiable information that would enable someone to contact you either online or offline, without first asking your parent/guardian or teacher for permission. We do not knowingly collect personally identifiable information from Children either directly or passively except when a Child voluntarily submits such information via a public posting area within the Application, if such feature is available.
+
+• Sharing of Personally Identifying Information with Third Parties:
+
+We will not share any personally identifying information about you with any third party (a party not affiliated with Pearson) except as otherwise stated herein and in the following circumstances: (i) in response to subpoenas, court orders or legal process, to the extent required and as restricted by law; (ii) when disclosure is required to maintain the security and integrity of this Application, or to protect any user’s security or the security of other persons, consistent with applicable laws; (iii) when disclosure is directed or consented to by the user who has inputted the personally-identifying information; (iv) to our trusted service providers who work on our behalf under terms consistent with this Privacy Statement, and who do not have an independent right to use the information we disclose to them.
+
+• Retention of Student Data:
+
+A student’s data will be hosted and available for extraction during the applicable license term. It is the school or school district’s responsibility to extract any reports or student data that it desires to retain prior to the expiration of this time period. Any personally identifiable information provided to Pearson in connection with this Application will be stored on Pearson’s servers or those of its affiliates and/or authorized vendors located in the United States.
+
+• Third-Party Analytic Services:
+
+Pearson may use a third-party service to collect anonymous visitor data on our network of sites, applications, and online services. If Pearson uses a third-party service to collect such information from the Application, the third-party service will not collect any personally identifying information from users of the Application. Pearson may use the third-party service to collect anonymous visitor information like IP addresses, browser types (such as Internet Explorer, Chrome, Firefox, Mozilla, Safari and others), the accessing app, or referring pages and websites. Pearson may use the third-party service to collect this non-personally identifiable information for various purposes, including but not limited to: (i) providing anonymous statistical analysis of use patterns; (ii) administration of our services and servers; (iii) allowing for auditing of our services by third parties; (iv) improving our general services; and (v) ensuring users compliance with our Terms of Use.
+
+• Cookies and Other Technology Used to Collect Information:
+
+With the use of cookies and other technologies, Pearson may receive and store certain types of information about you whenever you interact with this Application. Cookies are small text files that we transfer to your hardware, through your web browser or App, to (a) speed your navigation on the Application, (b) recognize you and your access privileges, (c) track your usage and preferences of the Application, (d) detect the existence of any cookies previously set by our server, and (e) identify certain information on how and when you accessed the Application such as type of browser, operating system, domain names, IP addresses and the like
+
+• Sharing of Non-Personally Identifying Information with Third Parties:
+
+Pearson may share with third parties any anonymized information collected through the Application, including those collected through the use of cookies. In such instance, we do NOT provide such third parties with any personally identifiable information about you or any other users of the Application. Pearson may provide such non-personally identifying information to assist in market evaluation, product assessment and improvement, educational research and other educational purposes.
+
+• IP Addresses:
+
+An IP address is a number that is assigned automatically to your computer whenever you use the internet. Web servers and other computers on the internet automatically identify your computer by its IP address. Pearson collects IP addresses for system administration; to report aggregate information to our sponsors, and partners; and to audit the use of our Service. When users use the App, our systems may log your IP addresses as the app communicates over the internet. We do not link IP addresses to anything personally identifiable. This means that your activity will be logged, but the user remains anonymous to us. We can and will use IP addresses to identify a user if any of the circumstances mentioned in the above section titled "Sharing Of Personally Identifying Information With Third Parties" occurs.
+
+• Location Information of the Device:
+
+This App does not collect precise geolocational information about the location of your App Supported Device. All geolocational information is limited to zip code information, if any is collected.
+
+• Links to Third-Party Sites:
+
+Links from the Application can take you to other Pearson sites as well as to third-party sites and resources (collectively, "Other Sites"). The privacy practices of such Other Sites are not covered by this Privacy Statement or any other policies or terms of this Application. Please make sure to review such Other Site’s terms of use and privacy policies prior to interacting with such sites.
+
+• Security:
+
+Pearson has security measures in place to protect the loss, misuse, and alteration of the information under our control. Essentially, we encrypt all transmission of sensitive data and secure all of our repositories of data. In addition, we limit access to this information to authorized employees and contractors who need to know that information in order to operate, develop or improve our App. Please be aware that, although we endeavor to provide reasonable security for information we process and maintain, no security system can prevent all potential security breaches.
+
+Last Update to Privacy Statement: August, 2015
+
+© 2015 Pearson Education, Inc. All rights reserved.
+
